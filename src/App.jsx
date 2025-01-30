@@ -7,7 +7,7 @@ import { Context, server } from "./main";
 import SignUpForm from "./pages/SignUpForm.jsx";
 import axios from "axios";
 import Home from "./pages/Home.jsx";
-import Manage from "./components/manage.jsx";
+import Manage from "./components/Manage.jsx";
 
 function App() {
   const { setIsAuthenticated, loading, setLoading, setUser } =
